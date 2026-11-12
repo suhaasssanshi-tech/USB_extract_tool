@@ -20,10 +20,12 @@ git clone <your-repo-url> personal-usb-backup
 cd personal-usb-backup
 powershell -ExecutionPolicy Bypass -File .\setup.ps1
 ```
-Just simply do this to get this thing running 
+Just simply do this to get this thing running
+``` 
 cd whatever_folder
 powershell -ExecutionPolicy Bypass -File .\setup.ps1
 powershell -ExecutionPolicy Bypass -File d:\pendrive_problem\uninstall.ps1
+```
 
 That's it — `setup.ps1`:
 1. Creates `Desktop\USB_Backups\logs\` (automatically resolving OneDrive-redirected or standard Desktop paths via `[Environment]::GetFolderPath('Desktop')`).
