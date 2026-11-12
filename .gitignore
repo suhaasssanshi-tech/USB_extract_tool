@@ -1,0 +1,6 @@
+# Local overrides and test artifacts
+config.local.json
+*.log
+/test_output/
+/scratch/
+

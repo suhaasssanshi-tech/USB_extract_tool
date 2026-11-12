@@ -1,0 +1,13 @@
+{
+  "taskName": "PersonalUsbBackupHelper",
+  "backupRootPath": "",
+  "includeHiddenSystem": false,
+  "backupExistingOnStartup": true,
+  "pollIntervalSeconds": 3,
+  "settleDelayMs": 1500,
+  "robocopyRetries": 2,
+  "robocopyWaitSeconds": 1,
+  "excludeDirectories": [],
+  "timestampFormat": "yyyy-MM-dd_HH-mm-ss"
+}
+
